@@ -17,7 +17,7 @@ Steps to install the code  and generate deployment(.war) file:
 3. Copy the neows.war file and paste it in tomcat/webapps directory.
 4. Start tomcat by running: ./startup.sh
 
-The three Webservices can be tested as below.
+Three webservices can be tested as below.
 
 This project exposes three main webservice call. 
 1. Get the largest Near earth object: The assumption is that the largest NEO is the one which have maximum estimated diameter.
@@ -53,7 +53,8 @@ This project exposes three main webservice call.
   
  a) replace api-key with one obtained by signing at : https://api.nasa.gov/index.html#apply-for-an-api-key
  
- b) id the Neo id 
+ b) id: the Neo id 
+ 
  An example of the URL: http://localhost:8080/neows/getDetailById/DEMO_KEY/2021277
  and the corresponding response is: 
  
